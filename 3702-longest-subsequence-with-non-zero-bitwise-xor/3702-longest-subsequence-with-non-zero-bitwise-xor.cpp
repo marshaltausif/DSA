@@ -20,3 +20,27 @@ public:
         return 0;
     }
 };
+
+/*                   START
+                      │
+                      ▼
+             Calculate XOR of
+              the whole array
+                      │
+                      ▼
+               Is XOR != 0?
+                 /        \
+               YES         NO
+                │           │
+                ▼           ▼
+          Keep all n    Is there at least
+          elements?     one non-zero?
+                │          /       \
+                ▼        YES        NO
+           return n       │          │
+                          ▼          ▼
+                    Remove one    All elements
+                    non-zero      are zero
+                       │             │
+                       ▼             ▼
+                  return n-1      return 0*/
