@@ -15,10 +15,10 @@ public:
                         }
                           if(k==nums2.size()){
                             ans.push_back(-1);
-                            break;}
+                            
                     }
                 }
-             }
+             }}
         return ans;
     }
 };
