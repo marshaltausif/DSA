@@ -2,10 +2,6 @@ class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
 
-        if (heights.empty()) {
-            return 0;
-        }
-
         int n = heights.size();
 
         vector<int> nsl(n);
