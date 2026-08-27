@@ -11,7 +11,7 @@ public:
             }
             else {// else matlab space hai
 
-                if(i == s.size() - 1) { 
+                if(i == s.size() - 1) { // current space is the last character of the entire string
                     // Agar ye string ka bilkul last character hai,
                     // toh word mein jo last word pada hai uski length return karo.
                     return word.size();
